@@ -4,7 +4,7 @@ import os
 
 #load config file
 print('Loading SecurePointDNS config')
-f = open(os.path.expanduser('~/.spdns/spdns-config.conf', 'r'))
+f = open(os.path.expanduser('~/.spdns/spdns-config.conf'), 'r')
 conf = f.readline()
 f.close()
 toks = conf.strip().split(' ')
